@@ -25,11 +25,11 @@ public class CustomListTest {
     public void testCountCities() {
         CustomList list = new CustomList();
         City calgary = new City("Calgary", "AB");
-        City edmonton = new City("Edmonton", "AB")
+        City edmonton = new City("Edmonton", "AB");
         list.addCity(calgary);
         list.addCity(edmonton);
         // verifies count reflects the number of cities added
-        assertEquals(1, list.countCities());
+        assertEquals(2, list.countCities());
     }
 
 }
