@@ -17,6 +17,10 @@ public class CustomList {
     public boolean hasCity(City city) {
         return cities.contains(city);
     }
-    
+
+    // removes the first matching city from the list, returns true if found
+    public void deleteCity(City city) {
+        cities.remove(city);
+    }
 
 }
