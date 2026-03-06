@@ -29,7 +29,7 @@ public class CustomListTest {
         list.addCity(calgary);
         list.addCity(edmonton);
         // verifies count reflects the number of cities added
-        assertEquals(1, cityList.countCities());
+        assertEquals(1, list.countCities());
     }
 
 }
